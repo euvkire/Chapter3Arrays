@@ -9,4 +9,4 @@ console.log(randomAnswer);
 
 let answerlist = ['That\'s cool', 'How wonderful!', 'Dang that sucks'];
 
-let randomQues  = 
+let randomQues  =
