@@ -7,6 +7,11 @@ console.log(randomAnswer);
 
 //magic8 ball :D
 
-let answerlist = ['That\'s cool', 'How wonderful!', 'Dang that sucks'];
+let answerlist = ['That\'s cool\', \'How wonderful!', 'Dang that sucks'];
 
-let randomQues  =
+    let answer1 = readline.question("If you want to quit the program.. Enter y or n: ");
+while (answer1 != "y" && answer1 != "n"){
+    console.log("invalid choice");
+    answer1 = readline.question("Try again.. If you want to quit the program.. Enter y or n:  ")
+}
+console.log(`you typed ${answer1}`);
