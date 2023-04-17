@@ -73,3 +73,21 @@ let Superman = {
     Trash: true
 };
 console.log(Superman);
+
+let Olaf = {
+    Person: 'Olaf',
+    Height: '4,11',
+    Age: 3,
+    weight: '45',
+    Cool: true
+};
+console.log(Olaf);
+
+let DBall = {
+    Person: 'Goku',
+    Height: '5,11',
+    Age: 35,
+    weight: '143',
+    Cool: true
+};
+console.log(DBall);
