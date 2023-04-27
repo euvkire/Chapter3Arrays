@@ -13,15 +13,20 @@ while (answer2 != "yes" && answer2 != "no"){
     console.log("invalid choice");
     answer2 = readLine.question("Repeat it?");
     while (answer2 != "no" && answer2 != "yes");
-}  if (answer2 = "no"){
+}  if (answer2 == "no"){
 console.log("No drink with your food.");}
-if (answer2 = "yes"){
+if (answer2 == "yes"){
     console.log("Drinks with your food.")
 }
 
 let answer3 = readLine.question("Would you like a side of fries with it?: ");
 while (answer3 != "yes" && answer3 != "no"){
     console.log("invalid choice");}
-    if(answer3 = "yes"){
+    if(answer3 == "yes"){
     answer3 = readLine.question("What size?(Small: $3.25, Medium: $5, Large: $6.50): ");
 }
+
+let number4 = Number(readLine.question("How many packet of ketch up do you want?: "));
+    let egg = number4 * 0.25;
+    console.log(`${number4} ketchup packets for you. (Cost ${egg})`);
+
