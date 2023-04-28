@@ -37,5 +37,5 @@ if (number4 == "no"){
 
     let egg = number4 * 0.25;
     console.log(`${number4} ketchup packets for you. (Cost ${egg})`);
-    console.log(`${answer} burger, ${answer2} drink, ${answer3} Fries, ${number4} Packets of ketchup. (Cost ${egg})`);
+    console.log(`${answer} burger/sandwich, ${answer2} drink, ${answer3} Fries, ${number4} Packets of ketchup. (Cost ${egg})`);
 
